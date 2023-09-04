@@ -13,7 +13,10 @@ export class CardFormComponent {
       Validators.required,
       Validators.minLength(3),
       Validators.maxLength(5)
-    ])
+    ]),
+    cardnumber: new FormControl(''),
+    expiration: new FormControl(''),
+    securityCode: new FormControl('')
   })
 
   constructor() {
