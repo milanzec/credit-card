@@ -23,4 +23,8 @@ export class CardFormComponent {
     console.log(this.cardForm.controls.name)
   }
 
+  onSubmit(){
+    console.log('form is submitted')
+  }
+
 }
